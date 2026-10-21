@@ -1,0 +1,26 @@
+---
+layout: archive
+title: "Projects"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign sorted = site.portfolio | sort: 'date' | reverse %}
+{% for item in sorted %}
+  <div style="margin-bottom:2.5em;">
+    <h2 style="margin-bottom:0.2em;">{{ item.title }}</h2>
+    {% if item.client or item.period %}
+      <p style="color:#666; font-size:0.9em; margin-top:0;">
+        {% if item.client %}{{ item.client }}{% endif %}{% if item.client and item.period %} &middot; {% endif %}{% if item.period %}{{ item.period }}{% endif %}
+      </p>
+    {% endif %}
+    {% if item.image %}
+      <img src="{{ base_path }}/images/{{ item.image }}" alt="{{ item.title }}" style="width:100%; height:auto; margin:0.6em 0;">
+      {% if item.caption %}<p style="color:#888; font-size:0.85em; margin-top:-0.2em;">{{ item.caption }}</p>{% endif %}
+    {% endif %}
+    {{ item.content }}
+    {% if item.link %}<p><a href="{{ item.link }}">Visit the site</a></p>{% endif %}
+  </div>
+{% endfor %}

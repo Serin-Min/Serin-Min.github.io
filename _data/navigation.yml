@@ -1,0 +1,14 @@
+# main links shown in the top navigation bar
+main:
+  - title: "About"
+    url: /
+  - title: "Projects"
+    url: /portfolio/
+  - title: "Publications"
+    url: /publications/
+  - title: "Talks"
+    url: /talks/
+  - title: "Patents"
+    url: /patents/
+  - title: "CV"
+    url: /cv/

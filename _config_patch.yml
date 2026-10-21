@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# PATCH FOR _config.yml
+# Do not replace the template's _config.yml with this file.
+# Find each key below in the template file and overwrite it, or append the
+# blocks that do not exist yet (collections / defaults entries for patents).
+# ---------------------------------------------------------------------------
+
+# --- site settings ---------------------------------------------------------
+title: "Serin Min"
+name: "Serin Min"
+description: "Travel behavior modeling, agent-based simulation, and digital twins."
+url: "https://serin-min.github.io"        
+baseurl: ""                               # leave empty for a username.github.io repo
+repository: "Serin-Min/Serin-Min.github.io" 
+
+# --- author sidebar --------------------------------------------------------
+author:
+  avatar: "profile.png"                   # place file at images/profile.png
+  name: "Serin Min"
+  pronouns:
+  bio: "Data scientist at MIMLAB. M.S. in Smart City, University of Seoul. Travel behavior modeling, agent-based simulation, digital twins."
+  location: "Seoul, Republic of Korea"
+  employer: "MIMLAB"
+  uri:
+  email: "3ody9@gmail.com"
+  googlescholar: "https://scholar.google.com/citations?user=XXXXXXX"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+  researchgate:
+  github: "Serin-Min"
+  linkedin:
+
+# --- collections -----------------------------------------------------------
+# The template already defines publications, talks, portfolio, teaching.
+# Add the patents block below to that existing list.
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  patents:
+    output: true
+    permalink: /:collection/:path/
+
+# --- defaults --------------------------------------------------------------
+# Add this entry to the end of the existing defaults list in _config.yml.
+defaults:
+  - scope:
+      path: ""
+      type: patents
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false

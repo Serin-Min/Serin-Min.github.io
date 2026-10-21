@@ -1,0 +1,38 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p style="color:#666; font-size:0.9em;">An asterisk denotes equal contribution.</p>
+
+<h2>Peer-reviewed journal articles</h2>
+<ul>
+{% assign journals = site.publications | where: "category", "journal" | sort: 'date' | reverse %}
+{% for post in journals %}
+  <li style="margin-bottom:1.1em;">
+    {{ post.authors | replace: "S Min", "<strong>S Min</strong>" }}
+    ({{ post.date | date: "%Y" }}).
+    {{ post.title }}.
+    <em>{{ post.venue }}</em>.
+    {% if post.doi and post.doi != "" %} <a href="{{ post.doi }}">[DOI]</a>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Working papers</h2>
+<ul>
+{% assign working = site.publications | where: "category", "working" | sort: 'date' | reverse %}
+{% for post in working %}
+  <li style="margin-bottom:1.1em;">
+    {{ post.authors | replace: "S Min", "<strong>S Min</strong>" }}.
+    {{ post.title }}.
+    <em>{{ post.venue }}</em>.
+    {% if post.status and post.status != "" %}({{ post.status }}){% endif %}
+    {% if post.doi and post.doi != "" %} <a href="{{ post.doi }}">[preprint]</a>{% endif %}
+  </li>
+{% endfor %}
+</ul>
