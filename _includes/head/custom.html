@@ -1,15 +1,68 @@
-<!-- Site-specific overrides. Delete this file to revert to template defaults. -->
+<!-- Icon fonts. The template's head.html loads only main.css, so these two
+     stylesheets must be linked here or no icon will render anywhere. -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css">
+
 <style>
-  /* Widen the site title so the nav links begin at the content column.
-     The sidebar takes 15.2542% plus a 1.6949% gutter, and the page adds
-     4.2372% of left padding, so content starts at 21.1864% of the wrapper.
-     The visible-links list keeps its default display so that the greedy-nav
-     script measures link widths the way it expects. */
+  @media (min-width: 48em) {
+    html { font-size: 16px; }
+  }
+
   @media (min-width: 57.8125em) {
+    .page {
+      padding-left: 8%;
+      padding-right: 11%;
+    }
     .greedy-nav .site-title {
       display: inline-block;
-      width: 21.1864%;
+      width: 24.9%;
       margin-right: 0;
     }
+  }
+  .page__title {
+    font-size: 1.7em;
+    margin-bottom: 0.8rem;
+  }
+  .page__content h2 {
+    font-size: 1.12em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 2.2rem 0 0.9rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--global-border-color, rgba(128,128,128,0.25));
+  }
+  .page__content p { line-height: 1.7; }
+  .page__content > ul { line-height: 1.7; }
+  .entry { margin: 0 0 1.25rem; }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .entry-role { font-weight: 600; }
+  .entry-date {
+    font-size: 0.82em;
+    opacity: 0.6;
+    white-space: nowrap;
+  }
+  .entry-sub {
+    font-size: 0.9em;
+    opacity: 0.78;
+    line-height: 1.55;
+    margin-top: 0.15rem;
+  }
+  .entry-list {
+    font-size: 0.9em;
+    opacity: 0.85;
+    line-height: 1.6;
+    margin: 0.35rem 0 0;
+    padding-left: 1.1rem;
+  }
+  .entry-list li { margin-bottom: 0.2rem; }
+
+  @media (max-width: 36em) {
+    .entry-head { display: block; }
+    .entry-date { display: block; margin-top: 0.1rem; }
   }
 </style>

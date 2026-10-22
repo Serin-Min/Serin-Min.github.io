@@ -13,24 +13,62 @@ My methods sit between simulation and inference. I build C++ pedestrian behavior
 
 ## Research interests
 
-Travel behavior modeling, agent-based and social-force pedestrian simulation, digital twins for transit hubs, spatial regression, causal inference for transport policy, remote sensing of urban change.
+Travel behavior modeling · Agent-based simulation · Digital twins · Remote sensing of urban change
 
 ## Education
 
-**M.S. in Smart City**, University of Seoul, 2024 to 2026
-Transportation Planning Laboratory, Department of Transportation Engineering. Advisor, Prof. Seungjae Lee.
-Thesis, Development of a Digital Twin System for Pedestrian Dynamics and Congestion Assessment in Transit Hubs.
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-role">M.S. in Smart City</span>
+    <span class="entry-date">2024 – 2026</span>
+  </div>
+  <div class="entry-sub">University of Seoul, Transportation Planning Laboratory</div>
+  <div class="entry-sub">Advised by Prof. Seungjae Lee. Thesis on a digital twin system for pedestrian dynamics and congestion assessment in transit hubs.</div>
+</div>
 
-**B.S. in Landscape Architecture and Geography**, Kyung Hee University, 2019 to 2024
-Double major.
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-role">B.S. in Landscape Architecture and Geography</span>
+    <span class="entry-date">2019 – 2024</span>
+  </div>
+  <div class="entry-sub">Kyung Hee University, double major</div>
+</div>
 
 ## Work experience
 
-**Associate Researcher and Data Scientist**, MIMLAB, 2026 to present
-Microscopic pedestrian behavior models in C++, extending the social force model with route choice, adaptive response, and perceived stress. Spatial LLM multi-agent framework linking relational urban data with large-scale agent deliberation for planning scenario evaluation.
 
-**Researcher**, Transportation Planning Laboratory, University of Seoul, 2024 to 2026
-Travel demand forecasting and network assignment in EMME across 14 road and rail infrastructure projects, with benefit-cost analysis. UAV-derived 3D reference maps for autonomous localization, covering feature extraction, map reduction, and field validation.
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-role">Associate Researcher and Data Scientist</span>
+    <span class="entry-date">2026 – present</span>
+  </div>
+  <div class="entry-sub">MIMLAB</div>
+  <ul class="entry-list">
+    <li>Microscopic pedestrian models in C++, extending the social force model with route choice and perceived stress</li>
+    <li>Spatial LLM multi-agent framework for evaluating planning alternatives against heterogeneous citizen responses</li>
+  </ul>
+</div>
 
-**Urban Planner, Intern**, LPSCAPE, 2022 and 2023
-Transit-oriented development and mobility strategies for urban development projects.
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-role">Researcher</span>
+    <span class="entry-date">2024 – 2026</span>
+  </div>
+  <div class="entry-sub">Transportation Planning Laboratory, University of Seoul</div>
+  <ul class="entry-list">
+    <li>Travel demand forecasting and network assignment in EMME across 14 infrastructure projects</li>
+    <li>UAV-derived 3D reference maps for autonomous localization, from feature extraction to field validation</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-role">Urban Planner, Intern</span>
+    <span class="entry-date">2022, 2023</span>
+  </div>
+  <div class="entry-sub">LPSCAPE</div>
+  <ul class="entry-list">
+    <li>Transit-oriented development and mobility strategies for urban development projects</li>
+  </ul>
+</div>
+
