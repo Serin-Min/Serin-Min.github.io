@@ -9,5 +9,3 @@ date: 2025-06-23
 location: "London, United Kingdom"
 authors: "S Min, M Choi, S Lee"
 ---
-
-A pedestrian digital twin combining route choice, visibility-aware social force dynamics, and perceived stress measures for real-time simulation.
