@@ -1,15 +1,20 @@
 ---
 permalink: /
-title: "About"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
+<h1 class="page__title">About</h1>
+
+<div class="intro">
+
 I study how people move through cities and how that movement reshapes urban form. My work joins large-scale mobility data with microscopic pedestrian simulation, so that aggregate presence can be decomposed into the flows that produce it. Current projects extend a model of Seoul's de facto population at hourly resolution across 427 administrative districts, allocating predicted demand onto links and activity nodes.
 
 My methods sit between simulation and inference. I build C++ pedestrian behavior models that extend the social force model with route choice, adaptive response, and perceived stress, and I calibrate them against observed trajectory, video, and virtual reality data. Alongside this I use spatial regression and quasi-experimental designs to evaluate how transport infrastructure changes travel behavior and the built environment.
+
+</div>
 
 ## Research interests
 
