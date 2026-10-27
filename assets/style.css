@@ -51,7 +51,7 @@ img { max-width: 100%; }
   padding-right: max(22px, env(safe-area-inset-right, 0px));
 }
 
-.inner { max-width: 1000px; margin: 0 auto; }
+.inner { max-width: 1180px; margin: 0 auto; }
 
 /* ---------- navigation ---------- */
 
@@ -133,7 +133,7 @@ h1.big {
   font-size: 19.5px;
   line-height: 1.52;
   color: var(--body);
-  max-width: 56ch;
+  max-width: 82ch;
 }
 
 .actions {
@@ -300,10 +300,10 @@ h3.grp.spaced { margin-top: 48px; }
 
 /* ---------- projects ---------- */
 
-.group { margin-top: 52px; }
+.group { margin-top: 84px; }
 .group:first-of-type { margin-top: 0; }
 
-.pgrid { display: grid; grid-template-columns: 1fr; gap: 40px 30px; }
+.pgrid { display: grid; grid-template-columns: 1fr; gap: 44px 34px; }
 
 @media (min-width: 720px) { .pgrid { grid-template-columns: repeat(2, 1fr); } }
 
