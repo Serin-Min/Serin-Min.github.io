@@ -124,7 +124,7 @@ h1.big {
   font-weight: 600;
   color: var(--ink);
   margin: 0;
-  max-width: 17ch;
+  max-width: 24ch;
   text-wrap: balance;
 }
 
