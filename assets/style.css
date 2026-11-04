@@ -51,7 +51,8 @@ img { max-width: 100%; }
   padding-right: max(22px, env(safe-area-inset-right, 0px));
 }
 
-.inner { max-width: 1180px; margin: 0 auto; }
+.inner { max-width: 1080px; margin: 0 auto; }
+.inner.wide { max-width: 1180px; }
 
 /* ---------- navigation ---------- */
 
